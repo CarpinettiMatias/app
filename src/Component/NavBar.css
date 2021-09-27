@@ -1,0 +1,29 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    min-height: 20vh;
+    background-color: pink;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.NavBar h1 a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: inline;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    color: black;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+
+}
