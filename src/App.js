@@ -1,7 +1,7 @@
 import React from "react";
 //importando
 import NavBar from './Component/NavBar.js'
-
+import ItemsListContainer from "./Component/ItemsListContainer/ItemsListContainer.js";
 
 
 function App() {
@@ -12,20 +12,10 @@ function App() {
                   <NavBar/>
               </div>
               <div>
-                  <ul>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                    <li>Producto</li>
-                  </ul>
+              <ItemsListContainer greeting='pepe' />
               </div>
-          </div>
+              </div>
     </div>
-   
   );
 }
 
