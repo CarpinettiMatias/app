@@ -1,7 +1,7 @@
 import React from "react";
 //importando
 import NavBar from './Component/NavBar.js'
-
+import itemListContainer from "./Component/itemListContainer/itemListContainer.js";
 
 
 function App() {
@@ -12,9 +12,10 @@ function App() {
                   <NavBar/>
               </div>
               <div>
+                <itemListContainer greating="Producto"/>
                   <ul>
                     <li>Producto</li>
-                    <li>Producto</li>
+                    <li>Productos</li>
                     <li>Producto</li>
                     <li>Producto</li>
                     <li>Producto</li>
@@ -23,6 +24,7 @@ function App() {
                     <li>Producto</li>
                   </ul>
               </div>
+             
           </div>
     </div>
    
