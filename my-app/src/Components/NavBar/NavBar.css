@@ -1,0 +1,20 @@
+html{
+    margin: 0%;
+
+}
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    min-height: 10%;
+    width: 100%;
+
+}
+.MenuD{
+    display: flex;
+    color: gainsboro;
+}
+.MenuCar{
+    margin-left:70%;
+    padding: 10px;
+}
